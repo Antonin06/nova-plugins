@@ -24,6 +24,13 @@
       "options": {
         "activate": true
       }
+    },
+    {
+      "step": "importFile",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/Antonin06/nova-plugins/main/_playground/demo-content.xml"
+      }
     }
   ]
 }
