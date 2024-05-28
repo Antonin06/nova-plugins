@@ -1,12 +1,29 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-
+  "landingPage": "/wp-admin/post.php?post=1&action=edit",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
   "features": {
     "networking": true
   },
   "steps": [
     {
       "step": "login"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/Antonin06/nova-plugins/main/nova-annoncement-bar.zip"
+      },
+      "options": {
+        "activate": true
+      }
     }
   ]
 }
