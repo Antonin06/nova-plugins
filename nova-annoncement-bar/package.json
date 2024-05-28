@@ -1,0 +1,25 @@
+{
+  "name": "webqam-annoncement-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.55.0",
+    "@wordpress/components": "^27.6.0",
+    "@wordpress/data": "^9.28.0",
+    "@wordpress/dom-ready": "^3.58.0",
+    "@wordpress/element": "^5.35.0",
+    "@wordpress/i18n": "^4.58.0",
+    "@wordpress/notices": "^4.26.0"
+  }
+}
